@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>J.D Cruises</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        .navbar {
+            display:flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: pink;
+            padding: 15px 30px;
+            border-bottom: 4px solid #f4a261;
+            margin: 3px;
+            border: 3px solid rgb(56, 9, 112);
+            border-radius: 5px;
+
+        }
+
+        .navbar img {
+            height: 60px;
+        }
+
+        .link {
+          
+            display: flex;
+            gap: 25px;
+        }
+
+        .link li {
+            display: inline;
+        }
+
+        .link a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            font-size: 18px;
+            transition: 0.3s;
+        }
+
+        .link a:hover {
+            color: #f4a261;
+        }
+
+        .buttons {
+            display: flex;
+            gap: 15px;
+        }
+
+        .btn {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: 0.3s;
+            text-align: center;
+        }
+
+        .login {
+            background: #f4a261;
+            color: white;
+        }
+
+        .registration {
+            background: #05574e;
+            color: white;
+        }
+
+        .btn:hover {
+            opacity: 0.8;
+        }
+
+        .fimage img {
+            width: 100%;
+            height: auto;
+        }
+
+        .font {
+            margin: 30px 0;
+            text-align: center;
+            font-size: 28px;
+            color: #003366;
+        }
+
+        .container {
+            padding: 10px;
+            background: #264653;
+            padding: 20px;
+            margin: 20px auto;
+            border-radius: 10px;
+            width: 1361px;
+        }
+
+        .top-box {
+            display: flex;
+            margin-bottom: 20px;
+            gap: 950px;
+        }
+
+        .select-box {
+            margin-right: 200px;
+        }
+
+        .select-box,
+        .reset-btn {
+            padding: 12px 20px;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            margin: 0 10px;
+        }
+
+        .select-box {
+            background: #e76f51;
+        }
+
+        .reset-btn {
+            background: #e63946;
+        }
+
+    
+        .city li {
+            display: inline-block;
+            padding: 10px;
+            background-color: #2a9d8f;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            margin: 10px 10px;
+        }
+
+        h2,
+        h4 {
+            margin: 10px
+        }
+
+        .Destination {
+            display: flex;
+            margin: 10px;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .image {
+            flex: 1;
+            border: 3px solid #264653;
+            border-radius: 10px;
+            padding: 15px;
+            text-align: center;
+            background: white;
+        }
+
+        p {
+            margin-bottom: 8px;
+        }
+
+        .foot {
+            text-align: center;
+            background: #264653;
+            color: whitesmoke;
+            border-radius: 5px;
+            border: 3px solid black;
+        }
+
+        .first {
+            margin: 5px;
+        }
+
+        .icon {
+            display: inline;
+
+        }
+
+        .last {
+            background-color: #264653;
+            text-align: center;
+            justify-content: center;
+
+        }
+
+        .last li {
+            display: inline;
+            justify-items: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+
+        <img src="jdlogo.png" alt="J.D Cruises Logo">
+        <ul class="link">
+            <li><a href="offers.html">Offers</a></li>
+            <li><a href="groupquery.html">Group Enquiry</a></li>
+            <li><a href="contect.html">Contact</a></li>
+        </ul>
+        <div class="link">
+            <div class="btn login"><a href="loginpage.html">Login</a></div>
+            <div class="btn registration"><a href="Signup.html">Sign Up</a></div>
+
+        </div>
+    </nav>
+
+    <div class="fimage">
+        <img src="frontpage1.png" alt="Cruise Image">
+    </div>
+
+    <h1 class="font">Explore Cruise Holidays</h1>
+
+    <div class="container">
+        <div class="top-box">
+            <button class="select-box">Select Destination</button>
+            <button class="reset-btn">Reset All Options</button>
+
+        </div>
+        <div class="city-container">
+            <ul class="city">
+                <li>New York</li>
+                <li>Los Angeles</li>
+                <li>goa</li>
+                <li>mumbai</li>
+                <li>banglor</li>
+                <li>surat</li>
+                <li>honkong</li>
+                <li>singapor</li>
+                <li>dubai</li>
+                <li>japan</li>
+                <li>england</li>
+                <li>singapor</li>
+                <li>melbarn</li>
+            </ul>
+        </div>
+
+    </div>
+    <hr>
+
+    <h2>
+        <center><b>india</b></center>
+    </h2>
+    <p>
+        <center>It’s a treasure trove of stunning destinations and when you explore it aboard Cordelia Cruise, you
+            experience it
+            in all its glory.</center>
+    </p>
+
+    <div class="Destination">
+        <div class="image"><img src="lakshadweep.png"></img>
+            <h2>Lakshadweep</h2>
+            <h4>Lakshadweep’s magnificence lies underwater with 4200 sq km of archipelago lagoons and coral reefs,
+                making it the only place in India where you can snorkel in the reefs. The unlimited onboard experiences
+                and the numerous excursions make our Lakshadweep cruises extraordinary and unforgettable</h4>
+        </div>
+        <div class="image"><img src="mumbai.png"></img>
+            <h2>Mumbai</h2>
+            <h4>
+                From colonial architecture to high-tech skyscrapers, Mumbai’s skyline is an interesting reflection of
+                history and modernity. Popularly known as the Maximum City, Mumbai is filled with iconic tourist
+                attractions, local and fine-dine restaurants, shopping malls, lanes and beautiful beaches
+            </h4>
+        </div>
+    </div>
+</body>
+<footer>
+    <div class="foot">
+        <div class="first">
+            <p>Cordelia Cruises by Waterways Leisure Tourism Pvt Ltd is India’s premium cruise line. True to its name,
+                Cordelia aspires to promote and drive the cruise culture in India through experiences that are stylish,
+                luxurious and most importantly, inherently Indian.
+            </p>
+        </div>
+        <div class="icon">
+
+            <img src="linkedin.png" height="30px"></a>
+            <img src="instagram.png" height="30px"></a>
+            <img src="youtube.png" height="30px"></a>
+        </div>
+        <div class="last">
+            <ul>
+                <li><a href="#" target="_blank">About Us</a></li>
+                <li><a href="#" target="_blank">Careers</a></li>
+                <li><a href="#" target="_blank">Privacy Policy</a></li>
+                <li><a href="#" target="_blank">Terms & Conditions</a></li>
+                <li><a href="#" target="_blank">Contact</a></li>
+            </ul>
+
+        </div>
+
+
+    </div>
+</footer>
+
+</html>
